@@ -1,0 +1,28 @@
+{
+  "name": "minara-api-cookbook",
+  "version": "1.0.0",
+  "description": "Developer cookbook for Minara Agent API — runnable examples for every endpoint with API Key and x402 authentication.",
+  "type": "module",
+  "scripts": {
+    "example:chat-apikey": "tsx examples/01-chat-api-key/index.ts",
+    "example:chat-x402": "tsx examples/02-chat-x402/index.ts",
+    "example:trading-signal": "tsx examples/03-trading-signal/index.ts",
+    "example:text-to-swap": "tsx examples/04-text-to-swap/index.ts",
+    "example:prediction-market": "tsx examples/05-prediction-market/index.ts"
+  },
+  "dependencies": {
+    "@x402/fetch": "^2.0.0",
+    "@x402/evm": "^2.0.0",
+    "@x402/core": "^2.0.0",
+    "viem": "^2.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
