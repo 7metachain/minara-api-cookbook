@@ -1,5 +1,9 @@
 # Minara API Developer Cookbook
 
+<p align="center">
+  <img src="assets/banner.png" alt="Minara API Developer Cookbook" width="100%" />
+</p>
+
 > Runnable examples for every [Minara Agent API](https://minara.ai/docs/ecosystem/agent-api) endpoint. Clone, configure, run — in under 5 minutes.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
